@@ -1,15 +1,37 @@
-# Daniel Wahome 👨‍💻  
-Backend Developer | C++ | Python | HTML & CSS  
+# Week 1: Personal Portfolio Website
 
-Passionate backend developer focused on building efficient, scalable, and logical systems. I enjoy solving real-world problems through clean and structured code.
+## Author
+- **Name:** Daniel Wahome
+- **GitHub:** [@Dannythech008](https://github.com/Dannythech008)
+- **Date:** February 24, 2026
 
-## Tech Stack
-C++ | Python | HTML5 | CSS3 | Git & GitHub  
+## Project Description
+A personal portfolio website built to showcase my skills, projects, and contact information. The goal was to create a clean, semantic, and responsive design.
 
-## Projects
-- Personal Portfolio Website (HTML & CSS)
-- Backend-focused practice projects in C++ and Python  
+## Technologies Used
+- HTML5
+- CSS3
+- Git
+- GitHub Pages
 
-## Contact
-Email: danygithinji8@gmail.com  
-GitHub: https://github.com/yourusername
+## Features
+- Responsive layout
+- Semantic HTML structure
+- Skills section highlighting C++ and Python
+- Contact section with email and GitHub link
+
+## How to Run
+1. Clone this repository
+2. Open `index.html` in your browser
+
+## Lessons Learned
+I improved my understanding of semantic HTML, file structuring, and deploying a project using GitHub Pages.
+
+## Challenges Faced
+Linking external CSS correctly and organizing files properly. Solved by restructuring folders and verifying file paths.
+
+## Screenshots (optional)
+![Portfolio Screenshot](images/screenshot.png)
+
+## Live Demo (if deployed)
+[View Live Demo](https://Dannythech008.github.io/)
