@@ -6,25 +6,25 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    /* Main Page Background: Deep Charcoal Navy */
+    /* Main Page Background: Dark */
     background-color: #0f172a; 
-    color: #e2e8f0; /* Soft light text for readability */
+    color: #e2e8f0;
     margin: 0;
     padding: 0;
 }
 
 /* Header Styling */
 header {
-    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    background: linear-gradient(135deg, #065f46 0%, #022c22 100%);
     color: white;
     padding: 50px 20px;
     text-align: center;
-    border-bottom: 1px solid #334155;
+    border-bottom: 1px solid #10b981;
 }
 
 .tagline {
     font-style: italic;
-    color: #94a3b8;
+    color: #a7f3d0;
     font-weight: 300;
 }
 
@@ -41,11 +41,11 @@ nav ul {
 
 nav ul li a {
     display: block;
-    background: #1e293b;
-    color: #10b981; /* Emerald Green links */
+    background: #064e3b;
+    color: #6ee7b7;
     padding: 12px;
     text-decoration: none;
-    border: 1px solid #334155;
+    border: 1px solid #10b981;
     border-radius: 8px;
     font-weight: bold;
     font-size: 0.9rem;
@@ -54,9 +54,9 @@ nav ul li a {
 
 nav ul li a:hover {
     background: #10b981;
-    color: #0f172a;
+    color: #022c22;
     transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
 }
 
 /* Main Content Layout */
@@ -66,26 +66,25 @@ main {
     padding: 20px;
 }
 
-/* FIX: Section Background (Removed the White) */
+/* Green Section Background */
 section {
-    /* Changed from white to a Deep Slate */
-    background-color: #1e293b; 
+    background-color: #065f46;
     margin: 40px 0;
     padding: 35px;
     border-radius: 16px;
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
-    border: 1px solid #334155; /* Subtle border for definition */
+    border: 1px solid #10b981;
 }
 
 h2 {
-    color: #f8fafc;
+    color: #ecfdf5;
     border-bottom: 3px solid #10b981;
     display: inline-block;
     margin-bottom: 25px;
     font-size: 1.7rem;
 }
 
-/* About Section Specifics */
+/* About Section */
 .about-container {
     display: flex;
     flex-wrap: wrap;
@@ -95,12 +94,12 @@ h2 {
 
 #about img {
     border-radius: 15px;
-    border: 2px solid #334155;
+    border: 2px solid #10b981;
     transition: 0.3s;
 }
 
 #about img:hover {
-    border-color: #10b981;
+    border-color: #6ee7b7;
 }
 
 /* Skills Grid */
@@ -112,19 +111,18 @@ h2 {
 
 .skill-card {
     padding: 25px;
-    /* Darker contrast for nested cards */
-    background-color: #0f172a; 
+    background-color: #022c22;
     border-top: 4px solid #10b981;
     border-radius: 10px;
 }
 
 .skill-card h3 {
     margin-top: 0;
-    color: #10b981;
+    color: #6ee7b7;
 }
 
 .skill-card ul {
-    color: #94a3b8;
+    color: #a7f3d0;
 }
 
 /* Contact & Footer */
@@ -133,7 +131,7 @@ h2 {
 }
 
 #contact a {
-    color: #10b981;
+    color: #6ee7b7;
     text-decoration: none;
     font-weight: bold;
 }
@@ -142,7 +140,7 @@ footer {
     text-align: center;
     padding: 60px 20px;
     font-size: 0.9rem;
-    color: #475569;
+    color: #6ee7b7;
 }
 
 /* Responsive View */
