@@ -2,8 +2,9 @@
 
 ## Author
 - **Name:** Daniel Wahome
-- **GitHub:** [@Dannythech008](https://github.com/Dannythech008)
+- **GitHub:** [@Dannytech008](https://github.com/Dannytech008)
 - **Date:** February 24, 2026
+- **Repository:** [iyf-s10-week-01-Dannytech008](https://github.com/Dannytech008/iyf-s10-week-01-Dannytech008)
 
 ## Project Description
 A personal portfolio website built to showcase my skills, projects, and contact information. The goal was to create a clean, semantic, and responsive design.
@@ -19,6 +20,7 @@ A personal portfolio website built to showcase my skills, projects, and contact 
 - Semantic HTML structure
 - Skills section highlighting C++ and Python
 - Contact section with email and GitHub link
+- Multi-page navigation for about, projects, and contact pages
 
 ## How to Run
 1. Clone this repository
@@ -30,8 +32,5 @@ I improved my understanding of semantic HTML, file structuring, and deploying a 
 ## Challenges Faced
 Linking external CSS correctly and organizing files properly. Solved by restructuring folders and verifying file paths.
 
-## Screenshots (optional)
-![Portfolio Screenshot](images/screenshot.png)
-
 ## Live Demo (if deployed)
-[View Live Demo](https://Dannythech008.github.io/)
+[View Live Demo](https://Dannytech008.github.io/iyf-s10-week-01-Dannytech008/)

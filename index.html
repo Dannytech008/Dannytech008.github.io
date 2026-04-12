@@ -9,55 +9,56 @@
 </head>
 <body>
 
-    <header>
-        <div class="header-content">
-            <h1>Hello I am Daniel Githinji</h1>
-            <p class="tagline">Web Developer | Backend Specialist | Computer Science Student</p>
+    <header class="site-header">
+        <div class="site-brand">
+            <p class="eyebrow">Week 1 Portfolio</p>
+            <h1>Hello, I am Daniel Githinji</h1>
+            <p class="tagline">Web Developer | Backend Specialist | Education Computer Science Student</p>
         </div>
-        
-        <nav aria-label="Main Navigation">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="https://github.com/DANNYTECH008" target="_blank" rel="noopener">GitHub</a></li>
-            </ul>
+
+        <nav class="site-nav" aria-label="Main Navigation">
+            <a href="index.html" aria-current="page">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="semantic-conversion.html">Semantic Conversion</a>
         </nav>
     </header>
 
     <main>
-        <section id="about">
-            <h2>About Me</h2>
+        <section class="hero-card">
             <div class="about-container">
-                <figure>
-                    <img src="My-photo.jpg" alt="Daniel Githinji Profile Photo" width="180">
-                    <img src="WhatsApp Image 2026-03-15 at 16.31.41.jpeg" alt="daniel githinji profile photo" width="180">
+                <figure class="profile-card">
+                    <img src="images/profile.jpg" alt="Daniel Githinji profile photo" width="240" height="240">
                     <figcaption>Daniel Githinji</figcaption>
                 </figure>
+
                 <div class="about-text">
                     <p>
-                        I am a passionate web developer and university student dedicated to building clean, 
-                        functional, and scalable applications. I find great joy in the logic of programming, 
-                        whether I’m debugging complex JavaScript or optimizing C++ performance.
+                        I build clean, practical web experiences and I enjoy turning ideas into polished interfaces.
+                        My focus is on semantic HTML, responsive layouts, and reliable backend logic.
                     </p>
                     <p>
-                        Beyond code, I enjoy analyzing football tactics and collaborating with 
-                        teammates on technical projects. I believe in continuous learning 
-                        and building systems that solve real-world problems.
+                        Outside development, I like football analysis, collaborative problem solving, and learning
+                        through small projects that push me to improve each week.
                     </p>
+                    <div class="inline-links">
+                        <a class="primary-link" href="projects.html">View Projects</a>
+                        <a class="secondary-link" href="contact.html">Contact Me</a>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="skills">
+        <section>
             <h2>Technical Expertise</h2>
             <div class="skills-grid">
                 <article class="skill-card">
                     <h3>Frontend Development</h3>
                     <ul>
-                        <li>HTML5 & CSS3</li>
-                        <li>JavaScript (ES6+)</li>
-                        <li>Responsive Design</li>
+                        <li>HTML5 and semantic structure</li>
+                        <li>CSS3, layout systems, and responsive design</li>
+                        <li>JavaScript fundamentals</li>
                     </ul>
                 </article>
 
@@ -65,28 +66,29 @@
                     <h3>Backend & Languages</h3>
                     <ul>
                         <li>Python</li>
-                        <li>C & C++</li>
-                        <li>API Integrations</li>
+                        <li>C and C++</li>
+                        <li>API integration basics</li>
                     </ul>
                 </article>
 
                 <article class="skill-card">
-                    <h3>Databases & Tools</h3>
+                    <h3>Tools & Workflow</h3>
                     <ul>
-                        <li>MySQL & SQL</li>
-                        <li>Git & GitHub</li>
-                        <li>Technical Writing</li>
+                        <li>Git and GitHub</li>
+                        <li>Technical writing</li>
+                        <li>Problem solving and debugging</li>
                     </ul>
                 </article>
             </div>
         </section>
 
-        <section id="contact">
-            <h2>Get In Touch</h2>
-            <address>
+        <section>
+            <h2>Quick Contact</h2>
+            <address class="contact-summary">
                 <p>Email: <a href="mailto:danygithinji8@gmail.com">danygithinji8@gmail.com</a></p>
-                <p>GitHub: <a href="https://github.com/DANNYTECH008" target="_blank">github.com/DANNYTECH008</a></p>
-                <p>Phone: +254 729567505</p>
+                <p>GitHub: <a href="https://github.com/Dannytech008" target="_blank" rel="noopener">github.com/Dannytech008</a></p>
+                <p>WhatsApp: <a href="https://wa.me/254712345678" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
+                <p>Phone: <a class="btn-link" href="tel:+254712345678">+254 295 675 05</a></p>
             </address>
         </section>
     </main>
